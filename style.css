@@ -1,0 +1,288 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+
+}
+body html{
+    height: 100%;
+    width: 100%;
+   
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(205, 179, 10);
+    position: relative;
+    overflow: hidden;
+    
+}
+.big-doggy{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 24%;
+    
+}
+.big-doggy img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+    
+}
+.box1{
+    height: 90%;
+    width: 50%;
+    background-color: rgb(242, 242, 242);
+    padding: 10px 25px;
+    
+ 
+}
+
+.hed-content{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.hed-content p{
+    color: rgb(59, 58, 58);
+    margin-top: 5px;
+}
+.hed-content h1{
+    color: rgb(7, 75, 117);
+}
+.order-confirm{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.ord-code h2{
+    color: rgb(221, 96, 117);
+}
+.ord-detail ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+.ord-detail ul li{
+    color: rgb(53, 52, 52);
+}
+.ord-detail ul li:nth-child(3){
+    color: crimson;
+}
+.sumery{
+    margin-top: 20px;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+
+.car-toy img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-position: center;
+}
+.toy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14;
+
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.car-toy{
+    height: 100px;
+    width: 100px;
+    display: flex;
+   
+}
+.Quantity{
+    display: flex;
+    gap: 150px;
+}
+.Qty-price{
+    display: flex;
+    gap: 150px;
+    font-size: 13px;
+    
+}
+.statement{
+    margin-left: 30px;
+}
+
+.calculate{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid rgb(150, 146, 146);
+    border-bottom: 1px solid rgb(148, 141, 141);
+    margin-top: 10px;
+    
+
+}
+.names{
+    padding: 5px 0;
+}
+.names p{
+    padding: 3px;
+}
+.item-calulation{
+    padding: 5px 0;
+}
+.item-calulation p{
+    padding: 3px;
+}
+.names p:nth-child(3){
+    color: red;
+}
+.item-calulation p:nth-child(3){
+    color: red;
+}
+.order-total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.box2{
+    height: 90%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 30px;
+}
+.dog-sec{
+    display: flex;
+    justify-content: center;
+}
+.img-dogy{
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+   
+
+}
+.img-dogy img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+.offers p{
+    color: rgb(39, 38, 38);
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight:600;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+.input-box input{
+    width: 150px;
+    padding: 5px 10px;
+   outline: none;
+   border: none;
+   border-bottom: 1px solid crimson;
+   
+}
+.box-container button{
+    padding: 8px 20px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50px;
+    border: none;
+
+}
+.platform{
+    display: flex;
+    justify-content: space-around;
+   
+  
+}
+.follows-us{
+    margin-top: 50%;
+    margin-bottom: 5%;
+}
+.follows-us p{
+    font-size: 14px;
+    color: crimson;
+    font-weight: 600;
+}
+.social-networking{
+    height: 40px;
+    width:40px;
+}
+.social-networking img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 45%;
+
+}
+.help-center{
+    margin-top: 20px;
+}
+.help-center h2{
+    font-size: 14px;
+    
+}
+.help-center p{
+    color: crimson;
+    font-size: 14px;
+}
+.help-line{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.call-icon{
+    display: flex;
+    gap: 2px;
+    color: crimson;
+}
+.mail{
+    display: flex;
+    gap: 2px;
+    color: crimson;
+    
+}
